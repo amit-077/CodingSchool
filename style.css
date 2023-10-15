@@ -902,13 +902,13 @@ form > input {
   background-color: #ff0000;
 }
 
-.paymentFooter{
-      box-sizing: border-box;
-    border: 2px solid black;
-    height: 60px;
-    margin-bottom: -10px;
-    padding-left: 22px;
-    margin-left: -1px;
+.paymentFooter {
+  box-sizing: border-box;
+  border: 2px solid black;
+  height: 60px;
+  margin-bottom: -10px;
+  padding-left: 22px;
+  margin-left: -1px;
 }
 
 .paymentFooter p {
@@ -966,6 +966,57 @@ form > input {
   cursor: pointer;
   text-decoration: underline;
   color: white;
+}
+
+.mainDiv {
+  width: 100vw;
+  height: 100vh;
+  background-color: #264653;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainDiv form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 1rem;
+  border: 2px solid #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  padding-bottom: 4rem;
+}
+
+.mainDiv button {
+  height: 2.5rem;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  background-color: lightblue;
+  border: none;
+  border-radius: 3rem;
+}
+
+.mainDiv input {
+  padding-left: 1rem;
+  font-size: 1.1rem;
+}
+
+#signUUP {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.aboutUsDiv{
+
+}
+
+.aboutUsDiv h2 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 2.5rem;
+  text-decoration: underline;
 }
 
 /* ----------------- */
